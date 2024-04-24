@@ -41,8 +41,7 @@ $result = $conn-> query($sql);
                 <li>
                     <strong>Nome: </strong> <?php echo $row["nome"];?><br>
                     <strong>E-mail: </strong> <?php echo $row["email"];?><br>
-                    <strong>Data e Hora: </strong> <?php echo $row["data"]."ás". $row["hora"];?><br><br/>
-
+                    <strong>Data e Hora: </strong> <?php echo $row["data"]. "ás". $row["hora"];?><br><br/>
                 </li>
                 <?php endwhile;?>
         </ul>
